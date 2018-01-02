@@ -2,7 +2,7 @@
 var NavigationModule = (function (){
     
     var createNavigation = function(data) {
-        var template = '<div class="lm-sidebar--nav">'
+        return template = '<div class="lm-sidebar--nav">'
                             + '<div class="lm-inline">'
                                 + '<i class="material-icons">' + data.icon + '</i>'
                                 + '<h4 class="lm-title">' + data.title + '</h4>'
@@ -15,7 +15,7 @@ var NavigationModule = (function (){
 
     return {
         createNavigationElement: function(data) {
-            createNavigation(data);
+            return createNavigation(data);
         }
     }
 })();
