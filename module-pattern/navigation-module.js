@@ -8,7 +8,7 @@ var NavigationModule = (function (){
                                 + '<h4 class="lm-title">' + data.title + '</h4>'
                             + '</div>'
                             + '<div class="lm-inline">'
-                                + '<i class="material-icons">more_vert</i>' 
+                                + '<i class="material-icons">more_vert</i>'
                             + '</div>'
                         + '</div>';
     };
